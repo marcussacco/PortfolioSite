@@ -1,0 +1,203 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald|Roboto+Slab:100);
+html{
+
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Oswald, Helvetica, Sans-Serif;
+  color: white;
+  background-size: cover;
+}
+
+header{
+  margin-left: 15px;
+}
+
+h1, nav li, a{
+  text-decoration: none;
+  text-align: left;
+  display: inline;
+  color: #B2C5A9;
+  margin: 15px;
+}
+
+h1, h2, h4, ul, li, p{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  margin-top: 25px;
+  font-size: 2em;
+}
+
+header h1, h2{
+  line-height: 60px;
+}
+
+h4{
+  font-family: Roboto Slab;
+}
+
+nav{
+  width: 100%;
+  padding-top: 25px;
+}
+
+nav a{
+  cursor: pointer;
+}
+
+nav a:hover{
+  border-bottom: 1px solid white;
+}
+
+ul{
+  width: 100%;
+}
+
+p, span{
+  font-family: Roboto Slab;
+}
+
+a:active{
+  color: white;
+}
+
+#mainBox, section{
+  height: 100%;
+  width: 100%;
+}
+
+#skills{
+  font-size: 1.3em;
+  text-align: left;
+  margin-left: 4%;
+  height: auto;
+}
+
+#skills li{
+  color: #B2C5A9;
+  list-style-type: none;
+}
+
+#skills p{
+  margin-bottom: 10px;
+}
+
+.skillCell li, p{
+  text-align: left;
+}
+
+#projects a{
+  width: auto;
+  height: auto;
+  float: left;
+}
+
+.projectBox{
+  background-color: rgba(61, 57, 53, .3);
+  height: 320px;
+  width: 300px;
+  padding: 15px;
+  display: inline-block;
+  float: left;
+}
+
+.projectBox:hover{
+  background-color: rgba(61, 57, 53, .5);
+}
+
+.responsiveImage{
+  height: auto;
+  width: 100%;
+}
+
+.projectBox h2{
+  color: white;
+  text-align: center;
+}
+
+.projectBox p{
+  color: white;
+  text-align: center;
+}
+
+.projectBox a{
+  width: 90%;
+  margin: 0 auto;
+}
+
+#about{
+  width: 30%;
+  min-width: 600px;
+  margin: 25px;
+}
+
+#about p{
+  text-align: left;
+  font-size: 1.3em;
+  width: 100%;
+}
+
+span{
+  color: #bd5c5c;
+}
+
+section{
+  position: absolute;
+  color: white;
+  margin-top: 25px;
+  width: 96%;
+}
+
+#contact a{
+  color: white;
+  display: block;
+}
+
+@media(max-width:768px){
+  h1{
+    display: inline-block;
+  }
+  section{
+    width: 100%;
+  }
+  #skills{
+    margin: 5px;
+  }
+  #about{
+    width: 90%;
+    min-width: 300px;
+    margin: 5%;
+  }
+  #about p{
+    width: 100%;
+    min-width: 300px;
+  }
+  .projectBox{
+    height: auto;
+    width: 80%;
+    margin: 5%;
+    padding: 5%;
+  }
+  .projectBox img p{
+    display: inline-block;
+    float: left;
+  }
+  .projectBox a{
+    width: 90%;
+    margin: 0 auto;
+  }
+  nav li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 24%;
+    text-align: center;
+  }
+}
